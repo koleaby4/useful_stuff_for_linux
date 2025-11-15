@@ -1,5 +1,7 @@
 [user]
-  name = Nicolai Negru
+	name = Nicolai Negru
+	email = negru.n@gmail.com
+
 [alias]
 	co = checkout
 	br = branch
@@ -9,6 +11,9 @@
 	pl = pull
 	ps = push
 	cm = commit -m
-  sw = switch
+	sw = switch
+	swc = switch -C
+	del = branch -D
+	structure = log --oneline --simplify-by-decoration --graph --all
 [help]
 	autocorrect = 20
